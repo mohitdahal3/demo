@@ -23,3 +23,6 @@ git remote -v//to view the remote from where pulling and to where pushing is don
 git checkout -b main//will create new branch main
 git checkout master //to change working directory to master
 git branch
+git remote add <url name="origin"> <url="https://github.com.io/mohitdahal3/rms.git">
+git push -u <url name="origin"> <branch="master">
+git checkout -b main//will create new branch main from master
