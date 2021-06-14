@@ -1,0 +1,22 @@
+git config --global user.name "mohit"
+git config --global user.email "mohitdahal3@gmail.com"
+//git config --list
+git config user.name
+git status
+git init
+git add --a //to add all to staging area
+git commit -m "Initial Commit"
+git log //to see all commits
+git add abc.txt //to add abc.txt to staging state
+rm -rf .git /* to delete the repo*/
+git clone <link>
+names of files or folders inside .gitignore file will be ignored but they must be untracked.
+git rm abc.txt //will delete abc.txt file
+git mv abc.txt abc_renamed.txt //will rename the file
+git rm --cached abc.txt // will untrack the abc.txt file
+git log -p
+git log --pretty=full / pretty=short
+git log --pretty=format:"%an -- %h -- %ae"
+git checkout -- abc.txt //will match file to previous commit
+git checkout -f//will match the current working directory to last committed directory
+
