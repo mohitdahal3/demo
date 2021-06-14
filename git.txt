@@ -21,3 +21,4 @@ git checkout -- abc.txt //will match file to previous commit
 git checkout -f//will match the current working directory to last committed directory
 git remote -v//to view the remote from where pulling and to where pushing is done
 git checkout -b main//will create new branch main
+git checkout master //to change working directory to master
